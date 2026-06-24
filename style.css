@@ -48,13 +48,14 @@ justify-content: center;
 
 padding: 50px;
 text-align: center;
+justify-content: space-around;
 
 }
 .estudante-nome{
 text-align: center;
 }
 .estudante-imagem{
-width: 100%;
+width: 50%;
 }
 .estudante-icone{
 width: 38px;
