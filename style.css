@@ -98,8 +98,3 @@ color: #D51C39;
 text-decoration: none;padding: 0;
 
 }
-  .estudantes_todos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-  }
