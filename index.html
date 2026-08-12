@@ -23,12 +23,28 @@ Página">
 <img class="sociais" src="Logo_da_Escola.jpg" alt="Facebook da Escola">
 <img class="sociais" src="﹒⌗﹒Barrier ⸝⸝.png" alt="instagram da Escola">
 
-<ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
+<style>
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<div class="dropdown">Mouse over me!
+  <div class="dropdown-content">Hello World!</div>
+</div>
 
 </div>
 </header>
